@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Space tourism website</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+</head>
+<body class="technology">
+  <main>
+    <header class="navbar flex">
+      <a href="index.html">
+        <img src="assets/images/shared/logo.svg" alt="Company Logo" class="logo">
+      </a>
+      <button class="ham_brg_tool" aria-controls="menu_toggle" aria-expanded="false"><span class="visually-hidden">MENU</span></button>
+      </button>
+      <nav>
+        <ul id="menu_toggle" data-visible="false" class="nav_links flex">
+          <li class="nav_link" >
+            <a href="index.html"><span aria-hidden="true" class="num-text">00</span>Home</a>
+          </li>
+          <li class="nav_link">
+            <a href="destination-moon.html"><span aria-hidden="true" class="num-text">01</span>Destination</a>
+          </li>
+          <li class="nav_link">
+            <a href="crew-commander.html"><span aria-hidden="true" class="num-text">02</span>Crew</a>
+          </li>
+          <li class="nav_link active">
+            <a href="technology-vehicle.html"><span aria-hidden="true" class="num-text">03</span>Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="technology-section">
+      <div class="container">
+        <p class="txt-upper"><span class="num-text">03 </span> Space launch 101</p>
+        <div class="technology-container">
+          <div class="technology__images">
+            <picture>
+              <source media="(min-width:760px)" srcset="assets\images\technology\image-space-capsule-portrait.jpg">
+              <img src="assets\images\technology\image-space-capsule-landscape.jpg" alt="Flowers">
+            </picture>
+          </div>
+          <div class="technology__detailes">
+            <div class="technology__buttons">
+              <a href="technology-vehicle.html" class="technology__button"><span class="visually-hidden">technology pagination of vehicle</span>1</a>
+              <a href="technology-spaceport.html" class="technology__button"><span class="visually-hidden">technology pagination of spaceport</span>2</a>
+              <a href="technology-capsule.html" class="technology__button technology__active"><span class="visually-hidden">technology pagination of capsule</span>3</a>
+            </div>
+            <div class="technology__description">
+              <span>The terminology...</span>
+              <h3>Space capsule</h3>
+              <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+                capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+                you'll spend your time during the flight. It includes a space gym, cinema, 
+                and plenty of other activities to keep you entertained.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

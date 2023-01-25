@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Space tourism website</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+</head>
+<body class="destination">
+
+  <main>
+    <header class="navbar flex">
+      <a href="index.html">
+        <img src="assets/images/shared/logo.svg" alt="Company Logo" class="logo">
+      </a>
+      <button class="ham_brg_tool" aria-controls="menu_toggle" aria-expanded="false"><span class="visually-hidden">MENU</span></button>
+      </button>
+      <nav>
+        <ul id="menu_toggle" data-visible="false" class="nav_links flex">
+          <li class="nav_link" >
+            <a href="index.html"><span aria-hidden="true" class="num-text">00</span>Home</a>
+          </li>
+          <li class="nav_link active">
+            <a href="destination-mars.html"><span aria-hidden="true" class="num-text">01</span>Destination</a>
+          </li>
+          <li class="nav_link">
+            <a href="crew-commander.html"><span aria-hidden="true" class="num-text">02</span>Crew</a>
+          </li>
+          <li class="nav_link">
+            <a href="technology-vehicle.html"><span aria-hidden="true" class="num-text">03</span>Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </main>
+  
+  <div class="container">
+    <section class="destination-section">
+      <p><span class="num-text">01 </span> Pick your destination</p>
+      <article class="destination-container">
+        <div class="destination-images">
+          <img src="./assets/images/destination/image-mars.webp" alt="">
+        </div>
+        <div class="destination-details">
+          <div class="destination__locations">
+            <a href="destination-moon.html" class="destination__location"><span class="visually-hidden">next destination link moon</span>Moon</a>
+            <a href="destination-mars.html" class="destination__location destination-active"><span class="visually-hidden">next destination link Mars</span>Mars</a>
+            <a href="destination-europa.html" class="destination__location"><span class="visually-hidden">next destination link Europa</span>Europa</a>
+            <a href="destination-titan.html" class="destination__location"><span class="visually-hidden">next destination link Titan</span>Titan</a>
+          </div>
+          <div class="destination__discription">
+            <h2>Mars</h2>
+            <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+              the tallest planetary mountain in our solar system. It’s two and a half times 
+              the size of Everest!</p>
+            <!-- <hr> -->
+            <div class="destination__distance">
+              <div class="destination__distance-1">
+                <p>Avg. distance</p>
+                <h3>225 mil. km</h3>
+              </div>
+              <div class="destination__distance-1">
+                <p>Est. travel time</p>
+                <h3>9 months</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+  <script src="assets/JS/main.js"></script>
+</body>
+</html>
